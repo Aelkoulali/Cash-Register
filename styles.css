@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --grey:#4B505A;
+    --blue:#C9D6F3;
+    --black:#080808;
+    --gold:#e4b43b;
+   
+}
+
+body {
+    background-color: var(--blue);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px auto;
+}
