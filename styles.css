@@ -57,3 +57,20 @@ h1 {
     border: 3px var(--black) solid;
     font-weight: bold;
 }
+
+.bottom {
+    border: 3px solid var(--black);
+    height : 50px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.circle {
+    background-color : var(--black);
+    border: 1px soli var(--black);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 10px auto;
+    
+}
