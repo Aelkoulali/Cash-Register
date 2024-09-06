@@ -7,16 +7,21 @@
 }
 
 :root {
-    --grey:#4B505A;
-    --blue:#C9D6F3;
     --black:#080808;
+    --grey:#4B505A;
+    --white-smoke:#f5f5f5;
+    --pale-beige:#DED1B4;
     --gold:#e4b43b;
     --light-green:#90ee90;
-   
+    --orange-red:#ff4500;
+    --red:#ff0000;
+    --light-blue: #00b8ff;
+    --aqua: #00FFFF;
+    --light-indigo:#C9D6F3;  
 }
 
 body {
-    
+    background-color: var(--pale-beige);
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0 15px;
@@ -66,16 +71,16 @@ h1 {
     border-radius: 12px;
 }
 .screen {
-    background-color: aqua;
+    background-color: var(--aqua);
     display: flex;
-    border-bottom: 3px solid #080808;
+    border-bottom: 3px solid var(--black);
     height: 30px;
     padding: 5px;
     
 }
 .cash-in-drawer {
-    background-color: var(--blue);
-    border-bottom: 3px solid #080808;
+    background-color: var(--light-indigo);
+    border-bottom: 3px solid var(--black);
     padding: 25px 0;
 }
 
@@ -90,10 +95,10 @@ h1 {
 .bts-1 {
     display: flex;
     flex-wrap: nowrap;
-    color: var(--white);
-    border: 1px soild var(--white);
-        
+    color: var(--white-smoke);
+           
 }
+
 .btn-1 {
     width: 20px;
     height: 17px;
@@ -105,7 +110,7 @@ h1 {
 .btn-2 {
     width: 45px;
     height: 17px;
-    background-color: red
+    background-color:var(--red)
     
 }
 .btn-3 {
@@ -117,22 +122,22 @@ h1 {
 .btn-4 {
     width: 45px;
     height: 17px;
-    background-color: var(--blue)
+    background-color: var(--light-blue)
 }
 .btn-5 {
     width: 45px;
     height: 17px;
-    background-color: whitesmoke;
+    background-color: var(--white-smoke);
 }
 .btn-6 {
     width: 45px;
     height: 17px;
-    background-color:orangered;
+    background-color:var(--orange-red);
 }
 .btn-7 {
     width: 45px;
     height: 17px;
-    background-color: #e4b43b;
+    background-color:var(--gold);
 }
 
 
