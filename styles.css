@@ -30,11 +30,11 @@ h1 {
     margin: 30px auto;
 }
 
-.input{       
+.input {       
     width: 250px; 
     display: flex;
     flex-direction: column;
-    
+    margin: auto;
 }
 .purchase-btn {
     background-color: var(--gold);
