@@ -58,7 +58,7 @@ h1 {
     font-weight: bold;
 }
 
-.container{
+.container {
     margin-top: 15px;
     border: 3px solid var(--black);
     padding: 20px 0;
@@ -66,15 +66,16 @@ h1 {
 }
 
 
-.bottom {
+.drawer {
     border: 3px solid var(--black);
+    background-color : var(--black);
     height : 50px;
     margin-top: 10px;
     border-radius: 12px;
 }
 
 .circle {
-    background-color : var(--black);
+    background-color : var(--grey);
     border: 1px soli var(--black);
     border-radius: 50%;
     width: 20px;
