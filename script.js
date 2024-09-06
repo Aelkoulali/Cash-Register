@@ -11,3 +11,8 @@ let cid = [
   ['TWENTY', 60],
   ['ONE HUNDRED', 100]
 ];
+
+const cash = document.getElementById("cash");
+const changeDue = document.getElementById("change-due");
+const purchaseBtn = document.getElementById("purchase-btn");
+const cashInDrawer = document.getElementById("cash-in-drawer");
