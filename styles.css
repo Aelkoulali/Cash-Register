@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: var(--blue);
+    
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0 15px;
@@ -70,6 +70,7 @@ h1 {
     display: flex;
     border-bottom: 3px solid #080808;
     height: 30px;
+    padding: 5px;
     
 }
 .cash-in-drawer {
