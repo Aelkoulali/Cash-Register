@@ -62,7 +62,7 @@ h1 {
     background-color: var(--grey);
     margin-top: 15px;
     border: 3px solid var(--black);
-    padding: 20px 0;
+    padding-top: 5px;
     border-radius: 12px;
 }
 .screen {
@@ -79,12 +79,51 @@ h1 {
     padding: 25px 0;
 }
 
-.btn {
-    color: var(--grey);
-    background-color: var(--black);
-    width: 15px;
-    height: 15px;
+.bts-container {
+    display :flex;
+    flex-direction: column;
+    margin: 5px;
+    
+    }
+
+.bts-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    color: var(--white);
+    border: 1px soild var(--white);
+        
 }
+.btn-1 {
+    width: 17px;
+    height: 17px;
+    margin: 2px;
+    border: 2px solid var(--black);
+    
+}
+.btn-2 {
+    width: 58px;
+    height: 17px;
+    background-color: red
+    
+}
+.btn-3 {
+    width: 58px;
+    height: 17px;
+    background-color: green;
+}
+
+.btn-4 {
+    width: 58px;
+    height: 17px;
+    background-color: blue;
+}
+.btn-5 {
+    width: 58px;
+    height: 17px;
+    background-color: #e4b43b;
+}
+
+
 .drawer {
     border: 3px solid var(--black);
     background-color : var(--grey);
