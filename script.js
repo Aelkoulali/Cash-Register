@@ -16,3 +16,12 @@ const cash = document.getElementById("cash");
 const changeDue = document.getElementById("change-due");
 const purchaseBtn = document.getElementById("purchase-btn");
 const cashInDrawer = document.getElementById("cash-in-drawer");
+
+// Add addEventListener to purchaseBtn
+purchaseBtn.addEventListener("click",() => {
+  let price = 20;
+  if(cash.value = 10){
+  alert("Customer does not have enough money to purchase the item");
+
+}
+});
