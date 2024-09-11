@@ -31,8 +31,8 @@ let currency = [
 
 // Add addEventListener to purchaseBtn
 purchaseBtn.addEventListener("click",() => {
-  const cashValue = parseFloat(cash.value);
-  const changeDue = cashValue - price;
+  let cashValue = parseFloat(cash.value);
+  let changeDue = cashValue - price;
   if(cashValue < price) {
     alert("Customer does not have enough money to purchase the item");
     return;
