@@ -13,7 +13,7 @@ let cid = [
 ];
 
 const cash = document.getElementById("cash");
-const changeDue = document.getElementById("change-due");
+const change = document.getElementById("change-due");
 const purchaseBtn = document.getElementById("purchase-btn");
 const cashInDrawer = document.getElementById("cash-in-drawer");
 
@@ -31,9 +31,10 @@ let currency = [
 
 // Add addEventListener to purchaseBtn
 purchaseBtn.addEventListener("click",() => {
-  let price = 20;
-  if(cash.value = 10){
-  alert("Customer does not have enough money to purchase the item");
-
-}
+  const cashValue = parseFloat(cash.value);
+  const changeDue = cashValue - price;
+  if(cashValue < price) {
+    alert("Customer does not have enough money to purchase the item");
+    return;
+  }
 });
