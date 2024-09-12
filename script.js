@@ -16,7 +16,6 @@ const cash = document.getElementById("cash");
 const change = document.getElementById("change-due");
 const purchaseBtn = document.getElementById("purchase-btn");
 
-
 let currency = [
   ['PENNY', 0.01],
   ['NICKEL', 0.05],
@@ -44,5 +43,6 @@ purchaseBtn.addEventListener("click",() => {
 
 // Create getChange function
 const getChange = (chageDue, cid) => {
-  let totalCid = cid.reduce((sum, [_,amount]) => sum + amount); // [_,amount] = ['',amount]  
+  let totalCid = parseFloat(cid.reduce((sum, [_,amount]) => sum + amount, 0).toFixed(2)); // [_,amount] = ['',amount] 
+
 };
