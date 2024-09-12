@@ -44,5 +44,5 @@ purchaseBtn.addEventListener("click",() => {
 
 // Create getChange function
 const getChange = (chageDue, cid) => {
-  let totalCid = cid.reduce((sum, [_,amount]) => sum + amount); // [_, amout] = ['', amount]
+  let totalCid = cid.reduce((sum, [_,amount]) => sum + amount); // [_,amount] = ['',amount]  
 };
