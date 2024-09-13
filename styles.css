@@ -138,12 +138,10 @@ h1 {
     background-color:var(--gold);
 }
 
-
 .drawer {
-    border: 3px solid var(--black);
+    border: 23px solid var(--black);
     background-color : var(--grey);
-    height : 50px;
-    margin-top: 10px;
+    height : 80px;
     border-radius: 12px;
 }
 
@@ -151,8 +149,8 @@ h1 {
     background-color : var(--black);
     border: 3px solid var(--black);
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     margin: 10px auto;
        
 }
