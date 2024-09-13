@@ -16,7 +16,7 @@ const cash = document.getElementById("cash");
 const change = document.getElementById("change-due");
 const purchaseBtn = document.getElementById("purchase-btn");
 
-let currency = [
+let currencyUnits = [
   ['PENNY', 0.01],
   ['NICKEL', 0.05],
   ['DIME', 0.1],
@@ -48,5 +48,8 @@ const getChange = (changeDue, cid) => {
   if(totalCid < changeDue){
     return { statuts:"Status: INSUFFICIENT_FUNDS", change: []}
   }
+  
+  let changeArray = []; 
+  let remainingChange = changeDue;
 
 };
