@@ -52,4 +52,11 @@ const getChange = (changeDue, cid) => {
   let changeArray = []; 
   let remainingChange = changeDue;
 
+  for(let i = currencyUnits - 1; i>=0; i--){
+    let unit = currencyUnits[i][0];
+    let unitValue = currencyUnits[i][1]; // to acces to 100, 20...
+    let unitInDrawer = cid[i][1];
+
+  }
+
 };
