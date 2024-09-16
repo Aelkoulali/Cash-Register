@@ -71,6 +71,12 @@ const getChange = (changeDue, cid) => {
       }
     }
   }
-  
+  if(remainingChange > 0){
+    return { statuts:"Status: INSUFFICIENT_FUNDS", change: []}
+  }
+
+  if(changeDue === totalCid){
+    return { statuts:"CLOSED", change: []}
+  }
 
 };
