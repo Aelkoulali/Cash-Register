@@ -57,6 +57,16 @@ const getChange = (changeDue, cid) => {
     let unitValue = currencyUnits[i][1]; // to acces to 100, 20...
     let unitInDrawer = cid[i][1];
 
+    if(unitValue <= remainingChange && unitInDrawer > 0){
+      let amountFromUnit = 0;
+
+      while(remainingChange >= unitValue && unitInDrawer > 0){
+        remainingChange = (remainingChange - unitValue).toFixed(2);
+        unitInDrawer -= unitValue;
+        amountFromUnit += unitValue;
+      }
+    }
+
   }
 
 };
