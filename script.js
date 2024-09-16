@@ -70,7 +70,7 @@ const getChange = (changeDue, cid) => {
         changeArray.push([unit, amountFromUnit])
       }
     }
-
   }
+  
 
 };
