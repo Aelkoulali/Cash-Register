@@ -65,6 +65,10 @@ const getChange = (changeDue, cid) => {
         unitInDrawer -= unitValue;
         amountFromUnit += unitValue;
       }
+
+      if(amountFromUnit > 0){
+        changeArray.push([unit, amountFromUnit])
+      }
     }
 
   }
