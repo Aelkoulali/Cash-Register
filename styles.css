@@ -35,16 +35,13 @@ h1 {
     margin: 30px auto;
 }
 
-.fa-solid {
-    margin-left: 10px;
-}
-
 .input {       
     width: 250px; 
     display: flex;
     flex-direction: column;
     margin: auto;
 }
+
 .purchase-btn {
     background-color: var(--gold);
     border: 3px solid var(--black) ;
