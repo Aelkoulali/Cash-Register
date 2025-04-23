@@ -46,7 +46,7 @@ const getChange = (changeDue, cid) => {
   let totalCid = parseFloat(cid.reduce((sum, [_,amount]) => sum + amount, 0).toFixed(2)); // [_,amount] = [" ",amount] 
 
   if(totalCid < changeDue){
-    return { statuts:"Statuts: INSUFFICIENT_FUNDS", change: []}
+    return { Status: "INSUFFICIENT_FUNDS", change: []}
   }
   
   let changeArray = []; 
@@ -72,11 +72,11 @@ const getChange = (changeDue, cid) => {
     }
   }
   if(remainingChange > 0){
-    return { statuts:"Status: INSUFFICIENT_FUNDS", change: []}
+    return { Status: "INSUFFICIENT_FUNDS", change: []}
   }
 
   if(changeDue === totalCid){
-    return { statuts:"CLOSED", change: []}
+    return { Status:"CLOSED", change: []}
   }
 
 };
