@@ -1,4 +1,4 @@
-# 🗂️ Cash Register 📠 💲 
+# 🗂️ Cash Register 📠💲 
 ## ➡️ Key Concepts :
 ### ✅ Algorithms
 ### ✅ for( )
