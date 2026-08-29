@@ -1,157 +1,153 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --black:#080808;
-    --grey:#4B505A;
-    --white-smoke:#f5f5f5;
-    --pale-beige:#DED1B4;
-    --gold:#e4b43b;
-    --light-green:#90ee90;
-    --orange-red:#ff4500;
-    --red:#ff0000;
-    --light-blue: #00b8ff;
-    --aqua: #00FFFF;
-    --light-indigo:#C9D6F3;  
+  --black: #080808;
+  --grey: #4b505a;
+  --white-smoke: #f5f5f5;
+  --pale-beige: #ded1b4;
+  --gold: #e4b43b;
+  --light-green: #90ee90;
+  --orange-red: #ff4500;
+  --red: #ff0000;
+  --light-blue: #00b8ff;
+  --aqua: #00ffff;
+  --light-indigo: #c9d6f3;
 }
 
 body {
-    background-color: var(--pale-beige);
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  background-color: var(--pale-beige);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
-    margin: 30px auto;
+  margin: 30px auto;
 }
 
-.input {       
-    width: 250px; 
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+.input {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .purchase-btn {
-    background-color: var(--gold);
-    border: 3px solid var(--black) ;
-    border-radius: 12px;
-    cursor: pointer;
-    padding: 5px;
-    margin-top: 15px;
-    width: 250px;
-    font-weight: bold;
+  background-color: var(--gold);
+  border: 3px solid var(--black);
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 15px;
+  width: 250px;
+  font-weight: bold;
 }
 
 .purchase-btn:hover {
-    background-color: var(--light-green);
+  background-color: var(--light-green);
 }
 
 .user-input {
-    border-radius: 5px;
-    height: 30px;
-    border: 3px var(--black) solid;
-    font-weight: bold;
+  border-radius: 5px;
+  height: 30px;
+  border: 3px var(--black) solid;
+  font-weight: bold;
 }
 
 .container {
-    background-color: var(--grey);
-    margin-top: 15px;
-    border: 3px solid var(--black);
-    padding-top: 5px;
-    border-radius: 12px;
-    font-weight: bold ;
+  background-color: var(--grey);
+  margin-top: 15px;
+  border: 3px solid var(--black);
+  padding-top: 5px;
+  border-radius: 12px;
+  font-weight: bold;
 }
 .screen {
-    background-color: var(--aqua);
-    display: flex;
-    border-bottom: 3px solid var(--black);
-    height: 30px;
-    padding: 5px;
-    
+  background-color: var(--aqua);
+  display: flex;
+  border-bottom: 3px solid var(--black);
+  height: 30px;
+  padding: 5px;
 }
 .cash-in-drawer {
-    background-color: var(--light-indigo);
-    border-bottom: 3px solid var(--black);
-    padding: 25px 0;
+  background-color: var(--light-indigo);
+  border-bottom: 3px solid var(--black);
+  padding: 25px 0;
 }
 
 .bts-container {
-    display :flex;
-    flex-direction: column;
-    margin: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
 }
 
 .bts-1 {
-    display: flex;
-    flex-wrap: nowrap;
-    color: var(--white-smoke);
+  display: flex;
+  flex-wrap: nowrap;
+  color: var(--white-smoke);
 }
 
 .btn-1 {
-    width: 20px;
-    height: 17px;
-    margin: 2px;
-    border: 2px solid var(--black);
-    
+  width: 20px;
+  height: 17px;
+  margin: 2px;
+  border: 2px solid var(--black);
 }
 
 .btn-2 {
-    width: 45px;
-    height: 17px;
-    background-color:var(--red)
-    
+  width: 45px;
+  height: 17px;
+  background-color: var(--red);
 }
 .btn-3 {
-    width: 45px;
-    height: 17px;
-    background-color: var(--light-green);
+  width: 45px;
+  height: 17px;
+  background-color: var(--light-green);
 }
 
 .btn-4 {
-    width: 45px;
-    height: 17px;
-    background-color: var(--light-blue)
+  width: 45px;
+  height: 17px;
+  background-color: var(--light-blue);
 }
 .btn-5 {
-    width: 45px;
-    height: 17px;
-    background-color: var(--white-smoke);
+  width: 45px;
+  height: 17px;
+  background-color: var(--white-smoke);
 }
 .btn-6 {
-    width: 45px;
-    height: 17px;
-    background-color:var(--orange-red);
+  width: 45px;
+  height: 17px;
+  background-color: var(--orange-red);
 }
 .btn-7 {
-    width: 45px;
-    height: 17px;
-    background-color:var(--gold);
+  width: 45px;
+  height: 17px;
+  background-color: var(--gold);
 }
 
 .drawer {
-    border: 23px solid var(--black);
-    background-color : var(--grey);
-    height : 80px;
-    border-radius: 12px;
+  border: 23px solid var(--black);
+  background-color: var(--grey);
+  height: 80px;
+  border-radius: 12px;
 }
 
 .circle {
-    background-color : var(--black);
-    border: 3px solid var(--black);
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    margin: 10px auto;
-       
+  background-color: var(--black);
+  border: 3px solid var(--black);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 10px auto;
 }
